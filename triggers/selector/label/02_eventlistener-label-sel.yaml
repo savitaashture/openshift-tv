@@ -4,7 +4,7 @@ metadata:
   name: listener-label-selector
   namespace: foo
 spec:
-  serviceAccountName: pipeline
+  serviceAccountName: foo-el-sa
   labelSelector:
     matchLabels:
       foo: bar
